@@ -35,14 +35,14 @@ R-squared = 0.99996 with a mean absolute reconstruction error of 0.11A.
 - Gateway: ESP32-ETH01 (Arduino core)
 - Dashboard: Python, pymodbus
 
-## Repository Structure
+## Repository Contents
 
-```
-/firmware       STM32 acquisition, SOC estimation, and Modbus RTU firmware
-/gateway        ESP32-ETH01 Modbus RTU-to-TCP bridge
-/dashboard      Python live monitoring dashboard (pymodbus)
-/hardware       Circuit diagrams (TikZ) and calibration notes
-/docs           Defense slides / supporting documentation
+```text
+README.md                          Project documentation
+LICENSE                            MIT License
+BMS_Thesis_Defense_completed.pptx  Master's thesis presentation
+stm32_bms_updated.ino              STM32 firmware implementing battery monitoring, SOC estimation, and Modbus RTU communication
+esp32_modbus_bridge_updated.ino    ESP32-ETH01 Modbus RTU-to-TCP gateway for Ethernet connectivity
 ```
 
 ## SOC Estimation Method
